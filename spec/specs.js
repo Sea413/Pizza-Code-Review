@@ -31,4 +31,9 @@ it("will further expand upon pricing parameters to include toppings.", function(
   var testObject = new Customer ("Jerry","large","kale", 0);
   expect(testObject.toppingselect("kale")).to.equal(55);
 });
+it("will finalize pricing options.", function(){
+  var testObject = new Customer ("Jerry","large","kale", 0);
+  expect(testObject.sizeselect("large")).to.equal(12);
+  expect(testObject.toppingselect("kale")).to.equal(67);
+});
 });

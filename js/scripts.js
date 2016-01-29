@@ -35,25 +35,25 @@ Customer.prototype.sizeselect = function(vsize){
      return this.cost;
    }
    else if (vtopping === "tears"){
-     this.psize === vtopping;
+     this.topping === vtopping;
      this.cost += 28;
      return this.cost;
    }
    else if (vtopping === "bento"){
-     this.psize === vtopping;
+     this.topping === vtopping;
      this.cost += 32;
      return this.cost;
    }
    else if (vtopping === "cheese"){
-     this.psize === vtopping;
+     this.topping === vtopping;
      this.cost += 45;
      return this.cost;
 } else if (vtopping === "choice"){
-  this.psize === vtopping;
+  this.topping === vtopping;
   this.cost += 75;
   return this.cost;
 } else if (vtopping === "kale"){
-   this.psize === vtopping;
+   this.topping === vtopping;
    this.cost += 55;
    return this.cost;
  }
@@ -84,7 +84,6 @@ $(document).ready(function() {
             var vtopping = $("select#pizzatoppings").val();
             newcust.toppingselect(vtopping);
         });
-        console.log(this.cost);
     });
 
   });
