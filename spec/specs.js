@@ -3,8 +3,9 @@ describe("Customer", function(){
   var testObject = new Customer ("Jerry");
   expect(testObject.name).to.equal("Jerry");
 });
-//   it("Expands the definition of customer to include the size of the pizza", function(){
-//     var testObject = new Customer ("Jerry","small");
-//     expect(testObject.psize).to.equal("small");
-// });
+  it("Expands the definition of customer to include the size of the pizza", function(){
+    var testObject = new Customer ("Jerry","small");
+    expect(testObject.name).to.equal("Jerry");
+    expect(testObject.psize).to.equal("small");
+});
 });
