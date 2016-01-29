@@ -1,0 +1,36 @@
+Outline:
+1. We will need RNG 1-6 for a given number of dice. Can be done through math random.
+2.) Dice graphics to display results. A single button that generates a random number and inputs it.
+3.) We need to be able to store the existing value. As an array seems to make the most sense.
+4.) One array for the computer and one array for the player. Or two players.
+5.) We will have eight hours so first two hour.
+6,) The AI will represent the remaining six hours.
+log
+var Player = {
+  name: null,
+  totalScore: 0,
+  turnScore: 0,
+  currentRoll: null,
+  turn: null,
+  won: false,
+  roll: function() {
+    this.currentRoll = Math.floor(Math.random() * 6) + 1;
+  },
+  endTurn: function() {
+    this.totalScore += this.turnScore;
+    this.turnScore = 0;
+    this.turn = false;
+  },
+  proceed: function() {
+    if (this.currentRoll === 1) {
+      this.turnScore = 0;
+      this.endTurn();
+    } else {
+      this.turnScore += this.currentRoll;
+      if ((this.turnScore + this.totalScore) >= 100) {
+        alert(this.name + " wins the game of the piggies!")
+        this.won = true;
+      }
+    }
+  }
+}

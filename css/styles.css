@@ -1,0 +1,13 @@
+#print {
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+}
+#dishonor {
+  display: none;
+}
+#winning{
+  display: none;
+}
