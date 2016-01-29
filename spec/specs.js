@@ -16,4 +16,11 @@ it("continue the expansion of the customer instructor to include topping size", 
   expect(testObject.psize).to.equal("small");
   expect(testObject.topping).to.equal("kale");
 });
+it("will begin to include pricing as a potential variable", function(){
+  var testObject = new Customer ("Jerry","small","kale", 0);
+  expect(testObject.name).to.equal("Jerry");
+  expect(testObject.psize).to.equal("small");
+  expect(testObject.topping).to.equal("kale");
+  expect(testObject.cost).to.equal(0);
+});
 });

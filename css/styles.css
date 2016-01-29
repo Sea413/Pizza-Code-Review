@@ -11,9 +11,12 @@ h1 {
 #winning{
   display: none;
 }
-#toppings{
+/*#toppings{
   display: none;
 }
 #size{
-  display: none;
+  display: none;*/
+}
+li {
+  float: center;
 }

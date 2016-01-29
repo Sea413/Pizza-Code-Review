@@ -1,13 +1,24 @@
-function Customer(name,psize,topping) {
+function Customer(name,psize,topping,cost) {
   this.name = name;
   this.psize = psize;
   this.topping = topping;
+  this.cost = 0
 }
 
-// customer.prototype.sizeselect = function(){
-//     this.psize = psize;
-//     // this.currentscore = new_array;
-//  }
+customer.prototype.sizeselect = function(){
+    this.psize = psize;
+    if (vsize === "small") {
+      this.cost += 5;
+    }
+    else if (vsize === "medium"){
+      this.cost += 8;
+    }
+    else if (vsize === "large"){
+      this.cost += 12;
+    }
+    else if (vsize === "xlarge"){
+      this.cost += 15;
+ }
 //  customer.prototype.toppingselect = function(){
 //        this.topping = topping;
 //      // this.currentscore = new_array;
