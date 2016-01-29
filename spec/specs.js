@@ -23,4 +23,9 @@ it("will begin to include pricing as a potential variable", function(){
   expect(testObject.topping).to.equal("kale");
   expect(testObject.cost).to.equal(0);
 });
+it("will begin create parameters for pricing.", function(){
+  var testObject = new Customer ("Jerry","small","kale", 0);
+  expect(testObject.sizeselect("large")).to.equal(12);
+  // expect(testObject.sizeselect("large")).to.equal("large");
+});
 });
