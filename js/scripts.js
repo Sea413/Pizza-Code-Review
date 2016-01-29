@@ -1,12 +1,16 @@
-function Customer(name, psize) {
+function Customer(name, psize,ptopping) {
   this.name = name;
   this.psize = psize;
+  this.ptopping = ptopping;
 }
 
 customer.prototype.sizeselect = function(){
     return  this.psize = psize;
-    // this.currentscore = new_array;
  }
+ customer.prototype.toppingselect = function()
+ {
+     return  this.ptopping = ptopping;
+  }
 $(document).ready(function() {
   $("form#question").submit(function(event) {
     event.preventDefault();
@@ -15,13 +19,12 @@ $(document).ready(function() {
 
     $("form#roll").submit(function(event) {
       event.preventDefault();
-      var vsize = $("select#pizzatoppings").val();
+      var vsize = $("select#pizzasize").val();
       newcust.sizeselect(nameentry,vsize);
-      $("#sth").append("<li>" + newturn.totalscore + "</li>");
-      // $("#player1score").append(newturn.totalSCore)
-      console.log("total" + newturn.totalscore);
-
-
+        $("form#toppings").submit(function(event) {
+          event.preventDefault();
+          var vtopping = $("select#pizzatoppings").val();
+          newcust.toppingselect(nameentry,vsize);
     });
 
   });

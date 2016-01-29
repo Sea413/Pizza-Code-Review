@@ -8,4 +8,10 @@ describe("Customer", function(){
     expect(testObject.name).to.equal("Jerry");
     expect(testObject.psize).to.equal("small");
 });
+it("continue the expansion of the customer instructor to include topping size", function(){
+  var testObject = new Customer ("Jerry","small","kale");
+  expect(testObject.name).to.equal("Jerry");
+  expect(testObject.psize).to.equal("small");
+  expect(testObject.toppingselect).to.equal("kale");
+});
 });
