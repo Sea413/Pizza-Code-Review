@@ -1,37 +1,28 @@
-# _{Application Name}_
+# The Papa Manifesto
 
-#### _{Brief description of application}, {Date of current version}_
+#### This version of the application is able to accept orders and have a price associated with them. 1/29/2016
 
-#### By _**{List of contributors}**_
+#### By Sean Peerenboom Alan Turing
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+The intended purpose of the application is to take input from the user and assign a pricing option for it. It then results in a final cost and an order.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* No real set up instructions the program can be run in the browser of your choice.
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+Toppings can be added forever and all options must be clicked. Using the enter key is insufficient.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
+If you ru into any issues feel free to send the to this twitter account. @neiltyson
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+The languages used includes html, css, javascript, jquery.
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2015 **_{List of contributors or company name}_**
+Copyright (c) 2015 This software has been filed through the Interamerican court of human rights and is subject to litigation for infringement.
