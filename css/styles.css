@@ -20,3 +20,12 @@ h1 {
 li {
   float: center;
 }
+#size{
+  display: none;
+}
+#toppings{
+  display: none;
+}
+#confirmation{
+  display: none;
+}

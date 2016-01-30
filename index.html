@@ -14,7 +14,7 @@
           <div class="col-sm-6">
           <form id="users">
           <div class="form-group">
-            <label for="formGroupExampleInput">Customer Name!</label>
+            <h3><label for="formGroupExampleInput">Customer Name!</label></h3>
             <input type="text" class="form-control" id="customer">
           </div>
           </div>
@@ -23,27 +23,21 @@
         <form id="question">
           <button id="name-select" type="submit" class="btn btn-success">Enter your Name!</button>
         </form><br>
-        <form id="number1">
-        <label for="amount">How Many Pizzas would you like to order?</label>
-        <input type="text" class="form-control" id="amount">
-        <button id="name-select" type="submit" class="btn btn-danger">Confirm Amount!</button>
-        </form><br>
         <h1 id="print"></h1>
         <form id="size">
-          <ul>
-          <li><label for="pizzasize">What size of Pizza would you like to purchase?</label>
+
+          <h4 id="hidden1"><label for="pizzasize">What size of Pizza would you like to purchase?</label>
             <select id="pizzasize">
-              <option value="small">Trifling</option>
-              <option value="medium">Picayune</option>
-              <option value="large">Abhorrent</option>
-              <option value="xlarge">Brobdingnagian</option>
-            </select></li>
+              <option value="Trifling">Trifling</option>
+              <option value="Picayune">Picayune</option>
+              <option value="Abhorrent">Abhorrent</option>
+              <option value="Brobdingnagian">Brobdingnagian</option>
+            </select></h4>
           </ul>
           <button id="confirma" type="submit" class="btn btn-info">Confirm Pizza Size! </button>
         </form>
         <form id="toppings">
-          <ul>
-          <li><label for="pizzatoppings">What toppings would you like on your Pizza?</label>
+          <h4 id ="hidden2"><label for="pizzatoppings">What toppings would you like on your Pizza?</label>
             <select id="pizzatoppings">
               <option value="atari">Copies of Atari's ET game that was released in 1982</option>
               <option value="tears">The tears of windows vista users</option>
@@ -51,16 +45,18 @@
               <option value="cheese">Cheese</option>
               <option value="choice">Something not pizza. Our chef is really good and wants to branch out. You can just choose whatever you want, we are not judging. Expect Bill he judges.</option>
               <option value="kale">Kale (Everybody loves Kale!)</option>
-            </select></li>
-          </ul>
-          <button id="twig2" type="submit" class="btn btn-primary">Confirm toppings </button>
+            </select></h4>
+          <button id="toppconfirm" type="submit" class="btn btn-primary">Confirm toppings </button>
         </form>
       </form>
         <h1 id="customern"></h1>
-        <ul id= "amountexp">
-
-        </ul>
-        <h1 id="winning">You won! You are the best</h1>
+        <h3 id="pizzat"></h3>
+        <h4 id="toppingt"></h3>
+        <h2 id="finalcost"></h2>
+        <form id="confirmation">
+          <button id="confirm1" type="submit" class="btn">Confirm Order!</button>
+        </form><br>
+        <h1 id="winning">Your Pizza is on the way!</h1>
     </div>
   </body>
 </html>
