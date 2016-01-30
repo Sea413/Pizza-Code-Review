@@ -1,7 +1,6 @@
 #print {
   text-align: left;
 }
-
 h1 {
   text-align: center;
 }
@@ -10,12 +9,6 @@ h1 {
 }
 #winning{
   display: none;
-}
-/*#toppings{
-  display: none;
-}
-#size{
-  display: none;*/
 }
 li {
   float: center;
