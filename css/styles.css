@@ -1,0 +1,24 @@
+#print {
+  text-align: left;
+}
+h1 {
+  text-align: center;
+}
+#dishonor {
+  display: none;
+}
+#winning{
+  display: none;
+}
+li {
+  float: center;
+}
+#size{
+  display: none;
+}
+#toppings{
+  display: none;
+}
+#confirmation{
+  display: none;
+}

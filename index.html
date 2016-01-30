@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pizza is the opiate of the masses!</title>
+  </head>
+  <body>
+    <h1>Please enter your name to begin the wonderful journey!</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <form id="users">
+            <div class="form-group">
+              <h3><label for="formGroupExampleInput">Customer Name!</label></h3>
+              <input type="text" class="form-control" id="customer">
+            </div>
+            </div>
+          </div>
+          </form>
+        <form id="question">
+          <button id="name-select" type="submit" class="btn btn-success">Enter your Name!</button>
+        </form><br>
+        <h1 id="print"></h1>
+        <form id="size">
+          <h4 id="hidden1"><label for="pizzasize">What size of Pizza would you like to purchase?</label>
+          <select id="pizzasize">
+            <option value="Trifling">Trifling</option>
+            <option value="Picayune">Picayune</option>
+            <option value="Abhorrent">Abhorrent</option>
+            <option value="Brobdingnagian">Brobdingnagian</option>
+          </select></h4>
+          <button id="confirma" type="submit" class="btn btn-info">Confirm Pizza Size! </button>
+        </form>
+        <form id="toppings">
+          <h4 id ="hidden2"><label for="pizzatoppings">What toppings would you like on your Pizza?</label>
+          <select id="pizzatoppings">
+            <option value="Atari">Copies of Atari's ET game that was released in 1982</option>
+            <option value="Tears">The tears of windows vista users</option>
+            <option value="Bento">Bento box leftovers from all the rom com animes</option>
+            <option value="Cheese">Cheese</option>
+            <option value="Choice">Something not pizza. Our chef is really good and wants to branch out. You can just choose whatever you want, we are not judging. Expect Bill he judges.</option>
+            <option value="Kale">Kale (Everybody loves Kale!)</option>
+          </select></h4>
+          <button id="toppconfirm" type="submit" class="btn btn-primary">Confirm toppings </button>
+        </form>
+      </form>
+      <h1 id="customern"></h1>
+      <h3 id="pizzat"></h3>
+      <h4 id="toppingt"></h3>
+      <h2 id="finalcost"></h2>
+      <form id="confirmation">
+        <button id="confirm1" type="submit" class="btn">Confirm Order!</button>
+      </form><br>
+      <h1 id="winning">Your Pizza is on the way!</h1>
+    </div>
+  </body>
+</html>
